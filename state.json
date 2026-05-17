@@ -1,5 +1,97 @@
 {
   "schema_version": 1,
-  "last_check_utc": null,
-  "products": {}
+  "last_check_utc": "2026-05-17T04:05:01.163217+00:00",
+  "products": {
+    "sake09:11048": {
+      "product_key": "sake09:11048",
+      "name": "우부스나 카바시코 생주 4농양 (720미리) 産土 香子 生酒 四農醸",
+      "detail_url": "https://sake09.com/shop/products/detail.php?product_id=11048",
+      "image_url": "https://sake09.com/shop/upload/save_image/03121746_65f0165c25eaa.jpg",
+      "price_jpy": 23980,
+      "stock_status": "sold_out",
+      "first_seen_utc": "2026-05-17T04:05:01.163217+00:00",
+      "last_seen_utc": "2026-05-17T04:05:01.163217+00:00",
+      "last_status_change_utc": "2026-05-17T04:05:01.163217+00:00",
+      "last_notified_utc": null,
+      "discovered_via_query": "우부스나 카바 4농"
+    },
+    "sake09:11056": {
+      "product_key": "sake09:11056",
+      "name": "우부스나 카바시코 생주 4농양 (720미리) 産土 香子 生酒 四農醸",
+      "detail_url": "https://sake09.com/shop/products/detail.php?product_id=11056",
+      "image_url": "https://sake09.com/shop/upload/save_image/03121746_65f0165c25eaa.jpg",
+      "price_jpy": 13800,
+      "stock_status": "sold_out",
+      "first_seen_utc": "2026-05-17T04:05:01.163217+00:00",
+      "last_seen_utc": "2026-05-17T04:05:01.163217+00:00",
+      "last_status_change_utc": "2026-05-17T04:05:01.163217+00:00",
+      "last_notified_utc": null,
+      "discovered_via_query": "우부스나 카바 4농"
+    },
+    "sake09:13307": {
+      "product_key": "sake09:13307",
+      "name": "우부스나 특별한정 2023 카바시코 4농양 X 야마다니시키 3농양  (720미리) 産土",
+      "detail_url": "https://sake09.com/shop/products/detail.php?product_id=13307",
+      "image_url": "https://sake09.com/shop/upload/save_image/03121746_65f0165c25eaa.jpg",
+      "price_jpy": 24800,
+      "stock_status": "sold_out",
+      "first_seen_utc": "2026-05-17T04:05:01.163217+00:00",
+      "last_seen_utc": "2026-05-17T04:05:01.163217+00:00",
+      "last_status_change_utc": "2026-05-17T04:05:01.163217+00:00",
+      "last_notified_utc": null,
+      "discovered_via_query": "우부스나 카바 4농"
+    },
+    "sake09:2484": {
+      "product_key": "sake09:2484",
+      "name": "은거북이 신슈키레이 키 준마이다이긴죠 미야마(720ml) 信州亀齢 き 純米大吟醸 美山",
+      "detail_url": "https://sake09.com/shop/products/detail.php?product_id=2484",
+      "image_url": "https://sake09.com/shop/upload/save_image/07031336_5d1c30da0abd2.jpg",
+      "price_jpy": 16980,
+      "stock_status": "sold_out",
+      "first_seen_utc": "2026-05-17T04:05:01.163217+00:00",
+      "last_seen_utc": "2026-05-17T04:05:01.163217+00:00",
+      "last_status_change_utc": "2026-05-17T04:05:01.163217+00:00",
+      "last_notified_utc": null,
+      "discovered_via_query": "거북이 720"
+    },
+    "sake09:4829": {
+      "product_key": "sake09:4829",
+      "name": "은거북이 신슈키레이 키 준마이다이긴죠 미야마(720ml) 信州亀齢 き 純米大吟醸",
+      "detail_url": "https://sake09.com/shop/products/detail.php?product_id=4829",
+      "image_url": "https://sake09.com/shop/upload/save_image/08271050_68ae64519e668.jpg",
+      "price_jpy": 14980,
+      "stock_status": "sold_out",
+      "first_seen_utc": "2026-05-17T04:05:01.163217+00:00",
+      "last_seen_utc": "2026-05-17T04:05:01.163217+00:00",
+      "last_status_change_utc": "2026-05-17T04:05:01.163217+00:00",
+      "last_notified_utc": null,
+      "discovered_via_query": "거북이 720"
+    },
+    "sake09:9262": {
+      "product_key": "sake09:9262",
+      "name": "금거북이 신슈키레이 키 준마이다이긴죠 킨몬니시키(720ml) 信州亀齢 き 39 金紋錦",
+      "detail_url": "https://sake09.com/shop/products/detail.php?product_id=9262",
+      "image_url": "https://sake09.com/shop/upload/save_image/04110946_6434addaa9d37.jpg",
+      "price_jpy": 16980,
+      "stock_status": "sold_out",
+      "first_seen_utc": "2026-05-17T04:05:01.163217+00:00",
+      "last_seen_utc": "2026-05-17T04:05:01.163217+00:00",
+      "last_status_change_utc": "2026-05-17T04:05:01.163217+00:00",
+      "last_notified_utc": null,
+      "discovered_via_query": "거북이 720"
+    },
+    "sake09:9264": {
+      "product_key": "sake09:9264",
+      "name": "금거북이 신슈키레이 키 준마이다이긴죠 킨몬니시키(720ml) 信州亀齢 き 39 金紋錦",
+      "detail_url": "https://sake09.com/shop/products/detail.php?product_id=9264",
+      "image_url": "https://sake09.com/shop/upload/save_image/04110946_6434addaa9d37.jpg",
+      "price_jpy": 14980,
+      "stock_status": "sold_out",
+      "first_seen_utc": "2026-05-17T04:05:01.163217+00:00",
+      "last_seen_utc": "2026-05-17T04:05:01.163217+00:00",
+      "last_status_change_utc": "2026-05-17T04:05:01.163217+00:00",
+      "last_notified_utc": null,
+      "discovered_via_query": "거북이 720"
+    }
+  }
 }
