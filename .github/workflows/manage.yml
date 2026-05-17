@@ -1,0 +1,95 @@
+name: Manage Watchlist
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: '동작 선택'
+        required: true
+        type: choice
+        options:
+          - add
+          - remove
+          - toggle
+      query:
+        description: '검색어 (예: 거북이 720)'
+        required: true
+        type: string
+      label:
+        description: '표시명 (add 시 사용; 생략 시 검색어가 그대로 표시명이 됨)'
+        required: false
+        type: string
+      note:
+        description: '메모 (add 시 사용, 본인용 주석)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+# 동시 실행 방지: 동일한 watchlist.json 동시 수정 차단
+concurrency:
+  group: manage-watchlist
+  cancel-in-progress: false
+
+jobs:
+  manage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # Shell injection 회피: 사용자 입력을 env로 받아 따옴표 처리 후 전달.
+      - name: Apply watchlist change
+        env:
+          WL_ACTION: ${{ inputs.action }}
+          WL_QUERY: ${{ inputs.query }}
+          WL_LABEL: ${{ inputs.label }}
+          WL_NOTE: ${{ inputs.note }}
+        run: |
+          set -euo pipefail
+          python scripts/manage_watchlist.py \
+            "$WL_ACTION" \
+            --query "$WL_QUERY" \
+            --label "$WL_LABEL" \
+            --note "$WL_NOTE"
+
+      - name: Commit and push watchlist.json
+        env:
+          WL_ACTION: ${{ inputs.action }}
+          WL_QUERY: ${{ inputs.query }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add watchlist.json
+          if git diff --cached --quiet watchlist.json; then
+            echo "[commit] no changes to watchlist.json"
+            exit 0
+          fi
+
+          # query를 commit message에 그대로 넣으면 따옴표 충돌 가능 → safe하게 escape
+          # bash double-quote 안에서 " → \" 치환
+          SAFE_QUERY=$(printf '%s' "$WL_QUERY" | sed 's/"/\\"/g')
+          git commit -m "chore(watchlist): $WL_ACTION \"$SAFE_QUERY\""
+
+          for i in 1 2 3; do
+            if git push; then
+              echo "[push] succeeded on attempt $i"
+              exit 0
+            fi
+            echo "[push] attempt $i failed, pulling rebase"
+            git pull --rebase
+            sleep 2
+          done
+
+          echo "[push] failed after 3 retries"
+          exit 1
