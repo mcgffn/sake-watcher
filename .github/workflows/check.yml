@@ -5,6 +5,7 @@ on:
     # 매시 17분 (정각 회피 + script 내부 5분 jitter와 결합).
     # GitHub Actions cron은 부하 시 지연될 수 있어 효과적 간격은 55~70분.
     - cron: '17 * * * *'
+    - cron: '47 * * * *'
   workflow_dispatch:
     inputs:
       dry_run:
