@@ -51,9 +51,9 @@ jobs:
         run: |
           set -euo pipefail
           if [ "${DRY_RUN:-false}" = "true" ]; then
-            python -m src.check --dry-run
+            python -m src.check --dry-run --no-jitter
           else
-            python -m src.check
+            python -m src.check --no-jitter
           fi
 
       - name: Commit and push state.json
