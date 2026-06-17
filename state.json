@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_check_utc": "2026-06-17T05:45:26.113170+00:00",
+  "last_check_utc": "2026-06-17T06:00:41.758903+00:00",
   "products": {
     "sake09:11048": {
       "product_key": "sake09:11048",
@@ -10,7 +10,7 @@
       "price_jpy": 23980,
       "stock_status": "sold_out",
       "first_seen_utc": "2026-05-17T04:05:01.163217+00:00",
-      "last_seen_utc": "2026-06-17T05:45:26.113170+00:00",
+      "last_seen_utc": "2026-06-17T06:00:41.758903+00:00",
       "last_status_change_utc": "2026-05-17T04:05:01.163217+00:00",
       "last_notified_utc": null,
       "discovered_via_query": "우부스나 카바 4농"
@@ -36,7 +36,7 @@
       "price_jpy": 24800,
       "stock_status": "sold_out",
       "first_seen_utc": "2026-05-17T04:05:01.163217+00:00",
-      "last_seen_utc": "2026-06-17T05:45:26.113170+00:00",
+      "last_seen_utc": "2026-06-17T06:00:41.758903+00:00",
       "last_status_change_utc": "2026-05-17T04:05:01.163217+00:00",
       "last_notified_utc": null,
       "discovered_via_query": "우부스나 카바 4농"
@@ -47,11 +47,11 @@
       "detail_url": "https://sake09.com/shop/products/detail.php?product_id=2484",
       "image_url": "https://sake09.com/shop/upload/save_image/07031336_5d1c30da0abd2.jpg",
       "price_jpy": 16980,
-      "stock_status": "sold_out",
+      "stock_status": "available",
       "first_seen_utc": "2026-05-17T04:05:01.163217+00:00",
-      "last_seen_utc": "2026-06-17T05:45:26.113170+00:00",
-      "last_status_change_utc": "2026-05-17T04:05:01.163217+00:00",
-      "last_notified_utc": null,
+      "last_seen_utc": "2026-06-17T06:00:41.758903+00:00",
+      "last_status_change_utc": "2026-06-17T06:00:41.758903+00:00",
+      "last_notified_utc": "2026-06-17T06:00:41.758903+00:00",
       "discovered_via_query": "거북이 720"
     },
     "sake09:4829": {
@@ -67,17 +67,30 @@
       "last_notified_utc": null,
       "discovered_via_query": "거북이 720"
     },
+    "sake09:6992": {
+      "product_key": "sake09:6992",
+      "name": "신슈키레이 준마이긴죠 산케이니시키 (720ml) 信州亀齢 純米吟醸",
+      "detail_url": "https://sake09.com/shop/products/detail.php?product_id=6992",
+      "image_url": "https://sake09.com/shop/upload/save_image/08061038_6892b21f9b966.jpg",
+      "price_jpy": 6980,
+      "stock_status": "sold_out",
+      "first_seen_utc": "2026-06-17T06:00:41.758903+00:00",
+      "last_seen_utc": "2026-06-17T06:00:41.758903+00:00",
+      "last_status_change_utc": "2026-06-17T06:00:41.758903+00:00",
+      "last_notified_utc": null,
+      "discovered_via_query": "거북이 720"
+    },
     "sake09:9262": {
       "product_key": "sake09:9262",
       "name": "금거북이 신슈키레이 키 준마이다이긴죠 킨몬니시키(720ml) 信州亀齢 き 39 金紋錦",
       "detail_url": "https://sake09.com/shop/products/detail.php?product_id=9262",
       "image_url": "https://sake09.com/shop/upload/save_image/04110946_6434addaa9d37.jpg",
       "price_jpy": 16980,
-      "stock_status": "sold_out",
+      "stock_status": "available",
       "first_seen_utc": "2026-05-17T04:05:01.163217+00:00",
-      "last_seen_utc": "2026-06-17T05:45:26.113170+00:00",
-      "last_status_change_utc": "2026-05-17T04:05:01.163217+00:00",
-      "last_notified_utc": null,
+      "last_seen_utc": "2026-06-17T06:00:41.758903+00:00",
+      "last_status_change_utc": "2026-06-17T06:00:41.758903+00:00",
+      "last_notified_utc": "2026-06-17T06:00:41.758903+00:00",
       "discovered_via_query": "거북이 720"
     },
     "sake09:9264": {
