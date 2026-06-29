@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_check_utc": "2026-06-29T17:48:43.917893+00:00",
+  "last_check_utc": "2026-06-29T18:00:36.326773+00:00",
   "products": {
     "sake09:11048": {
       "product_key": "sake09:11048",
@@ -10,7 +10,7 @@
       "price_jpy": 23980,
       "stock_status": "sold_out",
       "first_seen_utc": "2026-05-17T04:05:01.163217+00:00",
-      "last_seen_utc": "2026-06-29T17:48:43.917893+00:00",
+      "last_seen_utc": "2026-06-29T18:00:36.326773+00:00",
       "last_status_change_utc": "2026-05-17T04:05:01.163217+00:00",
       "last_notified_utc": null,
       "discovered_via_query": "우부스나 카바 4농"
@@ -36,7 +36,7 @@
       "price_jpy": 24800,
       "stock_status": "sold_out",
       "first_seen_utc": "2026-05-17T04:05:01.163217+00:00",
-      "last_seen_utc": "2026-06-29T17:48:43.917893+00:00",
+      "last_seen_utc": "2026-06-29T18:00:36.326773+00:00",
       "last_status_change_utc": "2026-05-17T04:05:01.163217+00:00",
       "last_notified_utc": null,
       "discovered_via_query": "우부스나 카바 4농"
@@ -49,7 +49,7 @@
       "price_jpy": 16980,
       "stock_status": "sold_out",
       "first_seen_utc": "2026-05-17T04:05:01.163217+00:00",
-      "last_seen_utc": "2026-06-29T17:48:43.917893+00:00",
+      "last_seen_utc": "2026-06-29T18:00:36.326773+00:00",
       "last_status_change_utc": "2026-06-18T02:45:27.855569+00:00",
       "last_notified_utc": "2026-06-17T06:00:41.758903+00:00",
       "discovered_via_query": "거북이 720"
@@ -88,7 +88,7 @@
       "price_jpy": 16980,
       "stock_status": "sold_out",
       "first_seen_utc": "2026-05-17T04:05:01.163217+00:00",
-      "last_seen_utc": "2026-06-29T17:48:43.917893+00:00",
+      "last_seen_utc": "2026-06-29T18:00:36.326773+00:00",
       "last_status_change_utc": "2026-06-18T02:45:27.855569+00:00",
       "last_notified_utc": "2026-06-17T06:00:41.758903+00:00",
       "discovered_via_query": "거북이 720"
